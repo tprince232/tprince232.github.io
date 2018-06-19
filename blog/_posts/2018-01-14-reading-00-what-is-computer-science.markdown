@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Reading 00: What is Computer Science?"
+date:   2018-01-14 20:00:00 -0500
+categories: jekyll update
+---
+Notre Dame has chosen to offer a degree in “Computer Science.” However, when I was applying for jobs I never once applied to be a “Computer Scientist."  Instead I applied for positions as a “Software Engineer.”  That makes one wonder if Computer Science is not actually a science and actually more like engineering.  This analogy relies on the premise that Computer Science and Software Engineering are synonymous, and that Software Engineering is in fact engineering. 
+
+
+The author of [“Software Engineering ≠ Computer Science”][article-2] writes that Computer Science is not like Software Engineering.  Software Engineering revolves the human process of developing software.  Unlike a science, there are no proofs to the claims made by Software Engineers the way there is to claims made in science.  The issue is the ever-changing human influence on the developing and maintaining of software.  The article includes a nice image of that draws the line between specific disciplines that are in the realm of Computer Science (Algorithms, Complexity, Compilers, etc.) and Software Engineering (Architectural Styles, Team Process, etc.).  
+
+In real world software development, however, the disciplines above and below the red line are often practiced together so it is worthwhile to dig deeper into if Software Engineering is even engineering. The author of [“Programmers, Stop Calling Yourselves Engineers”][article-3] claims that Software Engineering is not even engineering.   Unlike traditional engineering disciplines, there is no formal certification for being a Software Engineer.  Also, the process of building software is very different than the process for building bridges and cars.  Software Engineers work fast, publish an error prone version of the software, and send updates as things break to patch bugs.  Imagine of Civil Engineers and Mechanical Engineers worked this way? Buildings would tumble and planes would fall from the sky; there would be nothing left to send an update to.  Software Engineering is focused on the process of developing software in this iterative way in an efficient manner, but on building a fool proof artifact.
+
+For similar reasons, the author of [“Bridges, Software Engineering, and God”][article-1] says that software development is not engineering.  Engineers work with the laws of nature made by God, Software Engineers, however, work with tools made by man, x86 for example.  The author also ventures into the idea of software development being math, but writes that the lack of objectivity in the correctness of a program debunks this notion (“correctness” meaning that the given code is the correct code to be written as opposed to meaning it generates the correct output).  
+
+I would agree that software development is not math and also not any sort of science.  Code is not derived from the laws of nature, it is imagined by the programmers who type it out.  However, I would say that Computer Science is a science.  And that’s because I would define Computer Science as the math based laws that are applied in programming and software development.  This includes complexity, algorithms, machine learning, etc.  Software Engineering is everything beyond that.  For the reasons explained above, it is clear to me that Software Engineering is not like other engineering disciplines, but it does apply the science-based principles of Computer Science, among other human-based ideas.  Maybe software development best defined as an art of its own.  Since it is so different from standard engineering, I think there is no need to call it engineering.  
+
+This leaves some interesting implications for myself given I came to Notre Dame thinking I wanted to be a Civil Engineer and instead studied Computer Science on the premise that I will be building more things with the programming skills earned from a Computer Science degree than I could with a degree in Civil Engineering.  I stayed within the College of Engineering so I never realized I would no longer be an engineer.  However, whatever Computer Science is, I have been enjoying it so far.
+
+[article-1]: https://blog.codinghorror.com/bridges-software-engineering-and-god/
+[article-2]: http://www.drdobbs.com/architecture-and-design/software-engineering-computer-science/217701907
+[article-3]: https://www.theatlantic.com/technology/archive/2015/11/programmers-should-not-call-themselves-engineers/414271/
