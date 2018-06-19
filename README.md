@@ -1,2 +1,3 @@
 # tprince232.github.io
-# update
+
+This page serves as a e-resume of myself.
