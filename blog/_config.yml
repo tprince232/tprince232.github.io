@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
 timezone: "America/New_York"
 sass:
-    sass_dir: ./_scss
+    sass_dir: ./_sass
 #run blog with:
 #JEKYLL_ENV=production bundle exec jekyll build
 
