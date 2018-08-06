@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+//import { CarPartsComponent } from './car-parts.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `<h1>{{title}}</h1>
+    <car-parts></car-parts>`
 })
+
 export class AppComponent {
-  title = 'site';
+  title = 'Ultra Racing';
+
 }
