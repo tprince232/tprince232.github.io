@@ -4,21 +4,11 @@ import {BrowserModule} from '@angular/platform-browser';
 import { environment } from './environments/environment';
 import { AppComponent } from './app/app.component';
 import { CarPartsComponent } from './car-parts/car-parts.component';
-
+import { AppModule } from './app/app.module';
 
 if (environment.production) {
   enableProdMode();
 }
-
-
-@NgModule({
-  declarations: [ AppComponent, 
-    CarPartsComponent ],
-  imports: [ BrowserModule ],
-  bootstrap: [ AppComponent ]
-})
-
-class AppModule {}
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
