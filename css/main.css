@@ -1,4 +1,3 @@
-
 .fixed-top {
     background-color: white;
     border-bottom: 2px solid black;
@@ -9,7 +8,7 @@
 }
 
 #home {
-    background-image: url('Mountain.jpg');
+    background-image: url('../img/Mountains.jpg');
     min-height: 550px;
     background-size: cover;
 	background-position: 95% 30%;
