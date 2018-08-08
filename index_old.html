@@ -3,45 +3,50 @@
 	<head>
 		<title>Troy Prince</title>
 		<link rel='stylesheet' href='main.css' type='text/css'>
-		<link rel='stylesheet' href='dist/css/bootstrap.css'>
-		<link rel="stylesheet" href='dist/css/bootstrap-grid.css'>
-		<link rel="stylesheet" href='dist/css/bootstrap-reboot.css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="script.js"></script>
-		<!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"320-->
+		<link rel='stylesheet' href='bootstrap-3.3.7-dist/css/bootstrap.css'
+		<!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
 	</head>
 
 
 	<body>
-		<div class="text-center">
-			<nav class="fixed-top row">
-				<div class="col-md-2 col-4"><a href="#home">Home</a></div>
-				<div class="col-md-2 col-4"><a href="#ND">Education</a></div>
-				<div class="col-md-2 col-4"><a href="#work">Work</a></div>
-				<div class="col-md-2 col-4"><a href="#Zahm">Leadership</a></div>
-				<!--a class="nav-item nav-link" href="#interests">Interests</a-->
-				<div class="col-md-2 col-4"><a href="#travel">Travel</a></div>
-				<div class="col-md-2 col-4"><a href="#contact">Contact</a></div>		
-			</nav>
 		
-			<div id=home class="row align-items-center justify-content-center">
-				<h1>Troy Prince</h1>
-			</div>
+		<div id="navbar">
+			<ul>
+				<a href="#home"><li>Home</li></a>
+				<a href="#ND"><li>Education</li></a>
+				<a href="#work"><li>Work</li></a>
+				<a href="#Zahm"><li>Leadership & Service</li></a>
+				<a href="#interests"><li>Interests</li></a>
+				<a href="#travel"><li>Travel</li></a>
+				<a href="#contact"><li>Contact</li></a>
+			</ul>
+		</div>
 	
 		
-			<div id="ND" class="row align-items-center h-100">
-				<img class="col-4" src="GoldenDome.jpg"/>
-				<div id="ndContent" class="col-4">
-					<p>I am proud a alumnus of the </p>
-					<h2><a href="https://www.nd.edu/" target="_blank">University of Notre Dame</a></h2> 
-					<p>I graduated in May of 2018 with a degree in <a href="https://cse.nd.edu/" target="_blank">Computer Science</a>.
-						I find the impact that technology can have on any 
-						industry incredibly fascinating. I want to develop cutting edge tools or enhance existing ones 
-						to be as fast, reliable, and smart as possible.</p>
-					<p>Cumulative GPA: 3.826</p>
-				</div>
-				<img class="col-4" src="Lake.jpg"/>
-			</div>
+		<div id=home>
+			<h1>Troy Prince</h1>
+		</div>
+	
+		
+		<div id="ND">
+			<table>
+			<tr>
+			<td>
+				<img src="GoldenDome.jpg"/>
+			</td>
+			<td><div id="ndContent">
+			<p>I am a very proud student of the </p>
+			<h2><a href="https://www.nd.edu/" target="_blank">University of Notre Dame</a></h2> 
+			<p>I am currently a junior studying <a href="https://cse.nd.edu/" target="_blank">Computer Science</a> and am on track to graduate in May 2018. <!--I have achieved <a href="http://registrar.nd.edu/students/deans_list.php" target="_blank">Dean's List</a> standing for all four of my completed semesters.-->  I find the impact that technology can have on any industry incredibly fascinating. I want to develop cutting edge tools or enhance existing ones to be as fast, reliable, and smart as possible.</p>
+			<p>Cumulative GPA: 3.826</p>
+			
+			</div></td>
+			<td>
+				<img src="Lake.jpg"/>
+			</td>
+			</tr>
+			</table>
+		</div>
 
 		<div id="Tech">
 			<h2>Technical Coursework</h2>
@@ -360,7 +365,6 @@
 					<a href="https://www.linkedin.com/in/troy-prince-99b2b7105">View my Linkedin profile</a>
 				</div>
 			</div>
-		</div>
 		</div>
 	</body>
 </html>
