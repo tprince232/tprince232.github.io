@@ -1,7 +1,12 @@
-.main {
+.wrapper {
     overflow-x: hidden;
     width: 100%;
 }
+
+/*body {
+    overflow-x: hidden;
+    width: 100%;
+}*/
 
 .fixed-top {
     background-color: white;
