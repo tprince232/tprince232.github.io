@@ -33,3 +33,11 @@ a {
 #ND {
     border: 1px solid black;
 }
+
+#work {
+    border: 1px solid black;
+}
+
+#travel row {
+    padding: 5px;
+}
